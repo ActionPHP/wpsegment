@@ -1,0 +1,85 @@
+ol li {
+
+	border: 1px #eee dashed;
+	margin: 15px 0px;
+	padding: 15px;
+}
+
+.answer-space > li {
+
+	border: none;
+	padding: 10px;
+	margin: 5px;
+
+}
+
+.answer-space li:hover {
+
+	background-color: #FFFCCC;
+};
+
+.answer-space li .remove-answer a{
+
+	display: none !important;
+
+	
+}
+
+.answer-space li:hover .remove-answer a {
+
+	display: inline;
+	
+}
+
+
+.remove-answer a{
+	
+	display: none;
+	margin-left: 25px;
+	color: #cc0000;
+	font-size: 10px;
+	font-weight: bold;
+	cursor:pointer;
+	
+}
+
+.remove-answer a:hover {
+
+	text-decoration: underline;
+
+}
+
+.points-text {
+
+	color: #003366;
+}
+
+#question-list li .remove-question {
+
+	display: none;
+	margin-left: 25px;
+	color: #B02B2C;
+	font-weight: bold;
+	cursor: pointer;
+
+
+}
+
+#question-list li:hover .remove-question{
+
+	display: inline;
+
+};
+
+#question-list li textarea {
+
+	width: 300px;
+	height: 100px;
+
+}
+
+.remove-question:hover{
+
+	text-decoration: underline;
+
+};
